@@ -1,0 +1,4 @@
+2025-08-06 15:38:36.720687 | Roast | Input: HOHO | Output: You're like a keyboard with no backlight — invisible in the dark. 🌚⌨️
+2025-08-06 15:38:51.697460 | Roast | Input: Surprise me! | Output: You're the 'meh' emoji in a world of fire and sparkle. 😑
+2025-08-06 18:05:30.768058 | Roast | Input: Hoho | Output: You're like a function that returns None. 🔁
+2025-08-06 18:06:01.777110 | Roast | Input: Why is AI so weird | Output: You're the human version of a loading bar. 🔄
