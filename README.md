@@ -1,2 +1,16 @@
-# Roastify-Me
-Roastify Me is a fun and interactive Streamlit web app that gives users either a roast or a compliment based on their mood and input. Whether you're feeling spicy or sweet, this app has your back (or burns you to ashes). You can even activate Mirror Mode, where your own words are used against you for a savage roast!
+What is Polarity in Sentiment Analysis?
+When we use TextBlob(text).sentiment.polarity, it returns a score between:
+
+-1.0 → very negative
+
+0.0 → neutral
+
++1.0 → very positive
+
+
+
+| Range         | Meaning             | Why this range?                              |
+| ------------- | ------------------- | -------------------------------------------- |
+| `> 0.3`       | Clearly positive    | Keeps out weak/flimsy positivity like “okay” |
+| `< -0.1`      | Clearly negative    | Avoids overreacting to mild disappointment   |
+| `-0.1 to 0.3` | Neutral / uncertain | Covers vague, meh, in-between responses      |
